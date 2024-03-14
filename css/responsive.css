@@ -1,5 +1,5 @@
 /* -------------------------------------------------------------------
- * Template         : Rundal - Modern Multi-Purpose HTML5 Template
+ * Template         : WexorAI - Modern Multi-Purpose HTML5 Template
  * Author           : SeparateWeb
  * File             : responsive.css - main template responsive css style
 ------------------------------------------------------------------- */
@@ -193,24 +193,24 @@
 /* max screen with 992px */
 @media only screen and (max-width: 992px) {
     .sidebarmenuicon {display: block; font-size: 25px;}  
-    .rundal-header .rundal-nav .nav-link {font-size: 18px; line-height: 58px; border-bottom: 1px solid #c9c9c9;}
+    .WexorAI-header .WexorAI-nav .nav-link {font-size: 18px; line-height: 58px; border-bottom: 1px solid #c9c9c9;}
     .dropdown-toggle::after {top: 24px; position: absolute; right: 0;}
-    .rundal-header .navbar-nav .dropdown-menu {width: 100%; }
-    .rundal-header .navbar-nav .dropdown-menu {display: none;}
-    .rundal-header .rundal-nav .navbar-nav li:last-child> a {border-bottom: 0px solid #c9c9c9;}
-    .rundal-header .navbar-nav .dropdown-menu {box-shadow: none !important; padding: 20px 15px; border-top: 0px; background: #f1f1f1; border-radius: 0; transform: translate(0, 0%) scale(1);}
+    .WexorAI-header .navbar-nav .dropdown-menu {width: 100%; }
+    .WexorAI-header .navbar-nav .dropdown-menu {display: none;}
+    .WexorAI-header .WexorAI-nav .navbar-nav li:last-child> a {border-bottom: 0px solid #c9c9c9;}
+    .WexorAI-header .navbar-nav .dropdown-menu {box-shadow: none !important; padding: 20px 15px; border-top: 0px; background: #f1f1f1; border-radius: 0; transform: translate(0, 0%) scale(1);}
     .dropdown:hover .nav-link:before{display: none;}
     .nav-link.show:before{display: none;}
-    .rundal-header.headerbg .rundal-nav .nav-link {color: #010101;}
-    .rundal-header{padding: 0;}
+    .WexorAI-header.headerbg .WexorAI-nav .nav-link {color: #010101;}
+    .WexorAI-header{padding: 0;}
     .offcanvas-title img{max-height: 34px;}
-    .menu-header, .rundal-header {height: 65px;}
-    .rundal-header.sticky:after {height: 65px;}
+    .menu-header, .WexorAI-header {height: 65px;}
+    .WexorAI-header.sticky:after {height: 65px;}
     .sticky .menu-header {height: 65px;}
-    .rundal-header .navbar-nav li:last-child .dropdown-menu {margin-bottom: 40px;}
+    .WexorAI-header .navbar-nav li:last-child .dropdown-menu {margin-bottom: 40px;}
 
-    .rundal-header.alert-header{height: fit-content;}
-    .rundal-header.alert-header.sticky{height: 65px;}
+    .WexorAI-header.alert-header{height: fit-content;}
+    .WexorAI-header.alert-header.sticky{height: 65px;}
 
     /*megamenu*/
     .dropdown-menu li + li {
@@ -286,7 +286,7 @@
     .demo-3-solution .mt80 {
         margin-top: 30px;
     }
-    .rundal-header.header-dark .rundal-nav .nav-link {
+    .WexorAI-header.header-dark .WexorAI-nav .nav-link {
         color: #010101;
     }
     .header-dark .sidebarmenuicon a{ color: #fff;}
@@ -683,7 +683,7 @@
     .sec-pad {padding-top: 70px; padding-bottom: 70px;}
     .btn-head { line-height: 42px!important; height: 42px; padding: 0 9px; font-size: 14px; }
     .sw-menu-sw-set {grid-gap: 10px;}
-    .rundal-nav{width: 0;}
+    .WexorAI-nav{width: 0;}
     .menu-header {grid-gap: 10px; }
     .demo-2-hero h1 {font-size: 30px; line-height: 40px;}
     .hero-img-tags{display: none;}
@@ -832,7 +832,7 @@
 
 /*update 1.2*/
 @media only screen and (max-width: 992px) {
-.rundal-header .navbar-nav .dropdown-menu.show { 
+.WexorAI-header .navbar-nav .dropdown-menu.show { 
     display: block;
     opacity: 1;
     visibility: visible;     

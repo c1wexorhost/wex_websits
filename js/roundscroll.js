@@ -1,5 +1,5 @@
 /* -------------------------------------------------------------------
- * Template         : Rundal - Modern Multi-Purpose HTML5 Template
+ * Template         : WexorAI - Modern Multi-Purpose HTML5 Template
  * Author           : SeparateWeb
 ------------------------------------------------------------------- */
 const text = document.querySelector(".round-text .texts")

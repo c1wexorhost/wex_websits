@@ -1,5 +1,5 @@
 /* -------------------------------------------------------------------
- * Template         : Rundal - Modern Multi-Purpose HTML5 Template
+ * Template         : WexorAI - Modern Multi-Purpose HTML5 Template
  * Author           : SeparateWeb
  * File             : theme.css - main template theme & reset css style
 ------------------------------------------------------------------- */
@@ -28,7 +28,7 @@ a p {color: #484848; text-decoration: none; background-color: transparent; }
 ul{list-style:none;}
 a:hover {text-decoration: none;   color: inherit;}
 button:focus {outline: none!important}
-.animation, .rundal-header, .texts, .inine-btn:after, .r-g-btn, .domn-ex-lst, .sticky, .img-card-div, .link-hover a:after, .r-g-card, .hover-this, .hover-effect, .numbericons, .menu-header  {
+.animation, .WexorAI-header, .texts, .inine-btn:after, .r-g-btn, .domn-ex-lst, .sticky, .img-card-div, .link-hover a:after, .r-g-card, .hover-this, .hover-effect, .numbericons, .menu-header  {
 -webkit-transition: 1.1s cubic-bezier(.16, .84, .442, .98);
 -o-transition: 1.1s cubic-bezier(.16, .84, .442, .98);
 transition: 1.1s cubic-bezier(.16, .84, .442, .98);}

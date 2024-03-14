@@ -1,5 +1,5 @@
 /* -------------------------------------------------------------------
- * Template         : Rundal - Modern Multi-Purpose HTML5 Template
+ * Template         : WexorAI - Modern Multi-Purpose HTML5 Template
  * Author           : SeparateWeb
  * File             : Custom.js - main template custom js file
 ------------------------------------------------------------------- */
@@ -15,9 +15,9 @@ $(window).on('load', function() {
  //Sticky Header 
   function updateScroll() {
     if ($(window).scrollTop() >= 80) {
-      $(".rundal-header").addClass('sticky');
+      $(".WexorAI-header").addClass('sticky');
     } else {
-      $(".rundal-header").removeClass("sticky");
+      $(".WexorAI-header").removeClass("sticky");
     }
   }
   $(function () {

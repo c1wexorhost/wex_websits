@@ -1,20 +1,22 @@
 /* -------------------------------------------------------------------
- * Template         : Rundal - Modern Multi-Purpose HTML5 Template
+ * Template         : WexorAI - Modern Multi-Purpose HTML5 Template
  * Author           : SeparateWeb
  * File             : style.css - main template custom css style
 ------------------------------------------------------------------- */
-
+.base-h1{
+    font-size: 1.25rem;
+}
 /*header css*/
 .sw-menu-sw-set{
     display: flex;
     align-items: center;
     grid-gap: 15px;
 }
-.rundal-header.sticky {
+.WexorAI-header.sticky {
     height: auto;
     position: fixed;
 }
-.rundal-header.sticky:after {
+.WexorAI-header.sticky:after {
     content: "";
     background: rgb(255 255 255/70%);
     -webkit-backdrop-filter: blur(12px);
@@ -31,10 +33,10 @@
 .sticky .menu-header {  
     height: 70px;  ;
 }
-.rundal-header.sticky .rundal-nav .nav-link {   
+.WexorAI-header.sticky .WexorAI-nav .nav-link {   
     line-height: 70px;    
 }
-.rundal-header {   
+.WexorAI-header {   
     right: 0;
     left: 0;
     top: 0;
@@ -88,9 +90,9 @@
     left: 0;
 }
 .sw-megamenu{position: unset;}
-.rundal-header .navbar{ position: unset;}
-.rundal-header .rundal-nav .nav-link:hover{ color: #2c4bff;}
-.rundal-header .rundal-nav .nav-link {
+.WexorAI-header .navbar{ position: unset;}
+.WexorAI-header .WexorAI-nav .nav-link:hover{ color: #2c4bff;}
+.WexorAI-header .WexorAI-nav .nav-link {
     color: #010101;
     font-size: 18px;
     line-height: 85px;
@@ -101,7 +103,7 @@
     position: relative;
     font-weight: 500;
 }
-.rundal-header .navbar-nav .dropdown-menu {
+.WexorAI-header .navbar-nav .dropdown-menu {
     display: block;
     border-radius: 0;
     border: 0;
@@ -121,7 +123,7 @@
 } 
 
 /*disable for update 1.2*/
-/*.rundal-header .navbar-nav .dropdown-menu.show { 
+/*.WexorAI-header .navbar-nav .dropdown-menu.show { 
     display: block;
     opacity: 1;
     visibility: visible;     
@@ -209,8 +211,8 @@
 .header-light .brandlogo .light {display: none !important;}
 .header-light.sticky .brandlogo .dark {display: block;}
 .header-light.sticky .brandlogo .light {display: none !important;}
-.rundal-header.header-dark .rundal-nav .nav-link { color: #fff;}
-.rundal-header.header-dark.sticky .rundal-nav .nav-link { color: #1b3b5a;}
+.WexorAI-header.header-dark .WexorAI-nav .nav-link { color: #fff;}
+.WexorAI-header.header-dark.sticky .WexorAI-nav .nav-link { color: #1b3b5a;}
 
 /*menu hover*/
 .dropdown:hover .dropdown-menu {
@@ -1239,7 +1241,7 @@ footer p, footer a {
 
 /*demo 2  -  internship*/
 .font-2{ font-family: 'Artega';}
-.rundal-hero{
+.WexorAI-hero{
     display: grid;
     align-items: center;
     align-content: center;
@@ -2841,21 +2843,21 @@ a.btgs {
   @keyframes spinner {
     to {transform: rotate(360deg);}
   }
-.rundalform input.error, .rundalform select.error, .rundalform textarea.error { border-bottom: 1px solid red;}
-.rundalform input.valid, .rundalform select.valid, .rundalform textarea.valid { border-bottom: 1px solid #00a759;}
-.rundalform input.valid, .rundalform textarea.valid{
+.WexorAIform input.error, .WexorAIform select.error, .WexorAIform textarea.error { border-bottom: 1px solid red;}
+.WexorAIform input.valid, .WexorAIform select.valid, .WexorAIform textarea.valid { border-bottom: 1px solid #00a759;}
+.WexorAIform input.valid, .WexorAIform textarea.valid{
 	background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2300a759' d='M18.71,7.21a1,1,0,0,0-1.42,0L9.84,14.67,6.71,11.53A1,1,0,1,0,5.29,13l3.84,3.84a1,1,0,0,0,1.42,0l8.16-8.16A1,1,0,0,0,18.71,7.21Z'/%3E%3C/svg%3E");
 	background-repeat: no-repeat;
     background-position: 98% center;
     background-size: 20px;
 }
-.rundalform input.error, .rundalform textarea.error{
+.WexorAIform input.error, .WexorAIform textarea.error{
         background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23ff0000' d='M12 2A10 10 0 1 0 22 12 10.01114 10.01114 0 0 0 12 2Zm0 18a8 8 0 1 1 8-8A8.00917 8.00917 0 0 1 12 20Zm0-8.5a1 1 0 0 0-1 1v3a1 1 0 0 0 2 0v-3A1 1 0 0 0 12 11.5Zm0-4a1.25 1.25 0 1 0 1.25 1.25A1.25 1.25 0 0 0 12 7.5Z'/%3E%3C/svg%3E");
 	background-repeat: no-repeat;
     background-position: 98% center;
     background-size: 20px;
 }
-.rundalform textarea.error,.rundalform textarea.valid {
+.WexorAIform textarea.error,.WexorAIform textarea.valid {
     background-position-x: 98%;
     background-position-y: 10px;
 }
