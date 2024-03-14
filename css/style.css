@@ -4,7 +4,11 @@
  * File             : style.css - main template custom css style
 ------------------------------------------------------------------- */
 .base-h1{
-    font-size: 1.25rem;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+
 }
 /*header css*/
 .sw-menu-sw-set{
