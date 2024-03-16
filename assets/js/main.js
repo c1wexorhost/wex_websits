@@ -49,6 +49,7 @@ $(document).ready(function() {
             $(':input[type="submit"]').prop('disabled', true);
             $('.loader').addClass('loader-icon');
             let formData = new FormData($('#contactform')[0]);
+            console.log(formData);
             $.ajax({
                 url: "assets/email/send.php",
                 type: "POST",
