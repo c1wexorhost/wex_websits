@@ -2870,3 +2870,33 @@ a.btgs {
     padding: 15px 30px 15px 15px;
 }
 .submitbtn{position: relative; gap: 0; overflow: hidden;}
+
+/* SEO UPDATE — Card Alignment Fix */
+
+/* Make all cards in the service grid equal height */
+.box-service-div,
+.swcards .cardbg {
+    height: 100%;
+}
+
+.box-service-div .bstext,
+.swcards .cardbg {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-service-div .bstext {
+    align-self: stretch;
+}
+
+/* Push Read More link to bottom of every card */
+.box-service-div .bstext .inine-btn,
+.swcards .cardbg .inine-btn {
+    margin-top: auto;
+}
+
+/* Ensure the grid itself stretches children to equal height */
+.row:has(> .col > .box-service-div),
+.swcards {
+    align-items: stretch;
+}
